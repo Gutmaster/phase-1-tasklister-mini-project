@@ -7,11 +7,15 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(192, 204, 255), rgb(130, 238, 162));
 }
 
 button {
-  font-size: 7px;
+  font-size: 12px;
+}
+
+h2 {
+  text-align: center;
 }
 
 #main-content {
@@ -21,7 +25,7 @@ button {
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(49, 41, 41, 0.3);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
